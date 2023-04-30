@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-text {
+    font-weight: 700;
+    color: #5B6B9E;
+}
+
+.card-title {
+    text-transform: uppercase;
+    color: #5B6B9E;
+    font-weight: bolder;
+}
+
+.inner-text {
+    color: #5B6B9E;
+}
+
+.secondary-text {
+    color: #B7B2B2;
+}
+
+.primary-background {
+    background: #E7E7E7;
+}
+
+.light-primary-background {
+    background: #EAEAEA;
+}
+
+.card-background {
+    background: #EFEFEF;
+}
+
+.bg-nav {
+    background: #D9D9D9;
+}
+
+.nav-select {
+    background: #D9D9D9;
+}
+
+.dark-secondary-background {
+    background: #5B6B9E;
+}
+
+.light-secondary-background {
+    background: #9AA4CF;
+}
+
+.option-color {
+    background: #5B6B9E;
+}
+
+.response-color {
+    background: #9AA4CF;
+}
+
+/*
+Curves
+ */
+.circle {
+    border-radius: 100%;
+}
+
+.curved-all-semi {
+    border-radius: 0.5em;
+}
+
+.curved-all {
+    border-radius: 1em;
+}
+
+.curved-top-corners {
+    border-radius: 1em 1em 0em 0em;
+}
+
+.curved-bottom-corners {
+    border-radius: 0px 0px 1em 1em;
+}
+
+.curved-right {
+    border-radius: 1em 0em 0em 1em;
+}
+
+.curved-left {
+    border-radius: 0em 1em 1em 0em;
+}
+
+/*
+Shadows
+ */
+
+.outer-shadow {
+    box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.25);
+}
+
+/*
+borders
+ */
+
+.purple-border {
+    border: 1px solid #5B6B9E;;
+}
+
+.purple-border-bottom {
+    border-bottom: 2px solid #5B6B9E;
+}
+
+/*
+Controls
+ */
+
+.purple-input {
+    border-radius: 0.5em 0.5em   0 0;
+    border-bottom: solid #5B6B9E;
+    background: #EAEAEA;
+}
+
+.chat-input {
+    background: none;
+    border-bottom: solid;
+    border-width: thin;
+}
